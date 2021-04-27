@@ -11,10 +11,14 @@ struct Courses: Identifiable {
     var id = UUID()
     var Grade9List: [String]
     var Grade10List: [String]
+    var Grade11List: [String]
+    var Grade12List: [String]
     
     init() {
         Grade9List = ["Math", "Science"]
         Grade10List = ["Math", "Science", "Accounting"]
+        Grade11List = ["Math", "Physics", "Chemistry", "Accounting"]
+        Grade12List = ["Statistic", "Calculus", "Advanced Functions", "Physics", "AP Physics", "Chemistry", "AP Chemistry"]
     }
     
 }

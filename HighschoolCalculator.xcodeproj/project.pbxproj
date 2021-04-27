@@ -14,6 +14,8 @@
 		9C0A893F2637BF840021307D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A893E2637BF840021307D /* HomePage.swift */; };
 		9C0A89522637C7E70021307D /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A89512637C7E70021307D /* GradeView.swift */; };
 		9C0A89552637C8FA0021307D /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A89542637C8FA0021307D /* Courses.swift */; };
+		9C50A2B62638D15B002F502B /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2B52638D15B002F502B /* CourseView.swift */; };
+		9C50A2B92638D429002F502B /* CourseUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2B82638D429002F502B /* CourseUnits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9C0A893E2637BF840021307D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		9C0A89512637C7E70021307D /* GradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
 		9C0A89542637C8FA0021307D /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
+		9C50A2B52638D15B002F502B /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		9C50A2B82638D429002F502B /* CourseUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseUnits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 				9C0A89302637BC3B0021307D /* ContentView.swift */,
 				9C0A893E2637BF840021307D /* HomePage.swift */,
 				9C0A89512637C7E70021307D /* GradeView.swift */,
+				9C50A2B52638D15B002F502B /* CourseView.swift */,
 				9C0A89542637C8FA0021307D /* Courses.swift */,
+				9C50A2B82638D429002F502B /* CourseUnits.swift */,
 				9C0A89322637BC400021307D /* Assets.xcassets */,
 				9C0A89372637BC400021307D /* Info.plist */,
 				9C0A89342637BC400021307D /* Preview Content */,
@@ -152,6 +158,8 @@
 				9C0A893F2637BF840021307D /* HomePage.swift in Sources */,
 				9C0A892F2637BC3B0021307D /* HighschoolCalculatorApp.swift in Sources */,
 				9C0A89552637C8FA0021307D /* Courses.swift in Sources */,
+				9C50A2B62638D15B002F502B /* CourseView.swift in Sources */,
+				9C50A2B92638D429002F502B /* CourseUnits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

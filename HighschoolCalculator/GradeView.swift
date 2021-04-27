@@ -19,9 +19,31 @@ struct GradeView: View {
                         switch grade {
                         case 9:
                             List {
-                                ForEach(list.Grade9List, id: \.self){ course in
-                                Text(course)
+                                ForEach(list.Grade9List, id: \.self){
+                                    course in
+                                    NavigationLink(course, destination: CourseView(grade: grade, courseChosen: course))
                                }
+                            }
+                        case 10:
+                            List {
+                                ForEach(list.Grade10List, id: \.self) {
+                                    course in
+                                    Text(course)
+                                }
+                            }
+                        case 11:
+                            List {
+                                ForEach(list.Grade11List, id: \.self) {
+                                    course in
+                                    Text(course)
+                                }
+                            }
+                        case 12:
+                            List {
+                                ForEach(list.Grade12List, id: \.self) {
+                                    course in
+                                    Text(course)
+                                }
                             }
                         default:
                             Text("No")
