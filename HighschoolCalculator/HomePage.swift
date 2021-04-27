@@ -14,15 +14,15 @@ struct HomePage: View {
                 Group {
                     Section {
                         Text("What grade are you currently in?")
-                        NavigationLink("Grade 9", destination: Grade9View())
-                        NavigationLink("Grade 10", destination: Grade10View())
-                        NavigationLink("Grade 11", destination: Grade11View())
-                        NavigationLink("Grade 12", destination: Grade12View())
+                        NavigationLink("Grade 9", destination: GradeView(grade: 9))
+                        NavigationLink("Grade 10", destination: GradeView(grade: 10))
+                        NavigationLink("Grade 11", destination: GradeView(grade: 11))
+                        NavigationLink("Grade 12", destination: GradeView(grade: 12))
                     }
                 }
-            }
-            
-        }.navigationTitle("High School Calculator")
+            }.navigationTitle("High School Calculator")
+            // Add some description text here
+        }
         
     }
 }
