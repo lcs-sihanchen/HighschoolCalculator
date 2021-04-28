@@ -28,21 +28,22 @@ struct GradeView: View {
                             List {
                                 ForEach(list.Grade10List, id: \.self) {
                                     course in
-                                    Text(course)
+                                    NavigationLink(course, destination: CourseView(grade: grade, courseChosen: course))
                                 }
                             }
                         case 11:
                             List {
                                 ForEach(list.Grade11List, id: \.self) {
                                     course in
-                                    Text(course)
+                                    NavigationLink(course, destination: CourseView(grade: grade, courseChosen: course))
+                                    
                                 }
                             }
                         case 12:
                             List {
                                 ForEach(list.Grade12List, id: \.self) {
                                     course in
-                                    Text(course)
+                                    NavigationLink(course, destination: CourseView(grade: grade, courseChosen: course))
                                 }
                             }
                         default:

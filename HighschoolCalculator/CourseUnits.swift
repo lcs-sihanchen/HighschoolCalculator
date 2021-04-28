@@ -12,5 +12,9 @@ struct Units: Identifiable {
     var Grade11PhysicsUnits: [String]
     var Grade10MathUnits: [String]
     
+    init() {
+        Grade11PhysicsUnits = ["Kinematics 2D", "Forces", "Energy", "Sound Waves"]
+        Grade10MathUnits = ["Quadratics", "Trignometry"]
+    }
     
 }

@@ -10,8 +10,29 @@ import SwiftUI
 struct CourseView: View {
     @State var grade: Int
     @State var courseChosen: String
+    let courseUnits = Units()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            Group {
+                Section {
+                    Text("What unit are you currently in?")
+                    switch courseChosen {
+                    case "Physics":
+                        ForEach(courseUnits.Grade11PhysicsUnits, id: \.self) {
+                            unit in
+                            Text(unit)
+                        }
+                    case "Math":
+                        ForEach(courseUnits.Grade10MathUnits, id: \.self) {
+                            unit in
+                            Text(unit)
+                        }
+                    default:
+                        Text("Mistake")
+                    }
+                }
+            }
+        }
     }
 }
 
