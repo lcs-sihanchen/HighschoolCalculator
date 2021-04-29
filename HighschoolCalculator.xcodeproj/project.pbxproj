@@ -17,6 +17,8 @@
 		9C50A2B62638D15B002F502B /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2B52638D15B002F502B /* CourseView.swift */; };
 		9C50A2B92638D429002F502B /* CourseUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2B82638D429002F502B /* CourseUnits.swift */; };
 		9C50A2BC2638E0A3002F502B /* Equations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2BB2638E0A3002F502B /* Equations.swift */; };
+		9C50A2BF263A32B7002F502B /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2BE263A32B7002F502B /* UnitView.swift */; };
+		9C50A2C2263A449C002F502B /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50A2C1263A449C002F502B /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9C50A2B52638D15B002F502B /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		9C50A2B82638D429002F502B /* CourseUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseUnits.swift; sourceTree = "<group>"; };
 		9C50A2BB2638E0A3002F502B /* Equations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equations.swift; sourceTree = "<group>"; };
+		9C50A2BE263A32B7002F502B /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		9C50A2C1263A449C002F502B /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				9C0A893E2637BF840021307D /* HomePage.swift */,
 				9C0A89512637C7E70021307D /* GradeView.swift */,
 				9C50A2B52638D15B002F502B /* CourseView.swift */,
+				9C50A2BE263A32B7002F502B /* UnitView.swift */,
+				9C50A2C1263A449C002F502B /* CalculatorView.swift */,
 				9C0A89542637C8FA0021307D /* Courses.swift */,
 				9C50A2BB2638E0A3002F502B /* Equations.swift */,
 				9C50A2B82638D429002F502B /* CourseUnits.swift */,
@@ -162,6 +168,8 @@
 				9C50A2BC2638E0A3002F502B /* Equations.swift in Sources */,
 				9C0A892F2637BC3B0021307D /* HighschoolCalculatorApp.swift in Sources */,
 				9C0A89552637C8FA0021307D /* Courses.swift in Sources */,
+				9C50A2C2263A449C002F502B /* CalculatorView.swift in Sources */,
+				9C50A2BF263A32B7002F502B /* UnitView.swift in Sources */,
 				9C50A2B62638D15B002F502B /* CourseView.swift in Sources */,
 				9C50A2B92638D429002F502B /* CourseUnits.swift in Sources */,
 			);

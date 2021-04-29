@@ -20,19 +20,20 @@ struct CourseView: View {
                     case "Physics":
                         ForEach(courseUnits.Grade11PhysicsUnits, id: \.self) {
                             unit in
-                            Text(unit)
+                            NavigationLink(unit, destination: UnitView(grade: grade, courseChosen: courseChosen, unitChosen: unit))
+                           
                         }
                     case "Math":
                         ForEach(courseUnits.Grade10MathUnits, id: \.self) {
                             unit in
-                            Text(unit)
+                            NavigationLink(unit, destination: UnitView(grade: grade, courseChosen: courseChosen, unitChosen: unit))
                         }
                     default:
                         Text("Mistake")
                     }
                 }
             }
-        }
+        }.navigationTitle("Highschool Calculator")
     }
 }
 
